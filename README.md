@@ -35,4 +35,4 @@ El uso de este modelo garantiza:
 * **Recuperación (Rollback)**: Capacidad de revertir a una versión estable previa de forma inmediata gracias al etiquetado.
 
 ---
-*Puesta en Producción Segura (PPS) - Curso 25/26*
+*Puesta en Producción Segura (PPS) - Curso 25/26*## Versión Actual: v1.0.0
