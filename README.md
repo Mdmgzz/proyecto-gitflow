@@ -3,14 +3,12 @@
 Este repositorio contiene la implementación práctica del modelo de trabajo **GitFlow**, diseñado para gestionar el ciclo de vida del software en entornos donde la estabilidad y la seguridad son críticas.
 
 ## 👥 Equipo de Trabajo - IES Martínez Montañés
-* **Miguel Dominguez**: Arquitecto de Software y Gestión de Repositorio
-* **[Nombre Integrante 2]**: Gestión de Releases y Estabilización
-* **[Nombre Integrante 3]**: Especialista en Seguridad y Hotfixes
+* **Miguel Dominguez Garrote**
+* **Miguel Angel**
+* **Jose Andres**
 
 ---
 
-## 🏗️ Arquitectura de Ramas (Estrategia de PPS)
-Siguiendo los principios de "Puesta en Producción Segura", el repositorio utiliza una estructura de aislamiento de código:
 
 ### Ramas de Larga Duración
 * **`main`**: Representa el software en producción. Solo contiene código estable y etiquetado con versiones (tags).
@@ -24,7 +22,7 @@ Siguiendo los principios de "Puesta en Producción Segura", el repositorio utili
 ---
 
 ## 🛠️ Escenarios de Simulación para la Defensa
-Durante la demostración práctica, el equipo ejecuta tres flujos críticos:
+Durante la demostración , se ejecutan tres flujos críticos:
 
 1.  **Escenario A (Feature)**: Creación e integración de una funcionalidad (ej: `autenticacion-login`).
 2.  **Escenario B (Release)**: Preparación y cierre de la versión `v1.0.0`, sincronizando `main` y `develop`.
@@ -37,4 +35,4 @@ El uso de este modelo garantiza:
 * **Recuperación (Rollback)**: Capacidad de revertir a una versión estable previa de forma inmediata gracias al etiquetado.
 
 ---
-*Módulo: Puesta en Producción Segura (PPS) - Curso 25/26*
+*Puesta en Producción Segura (PPS) - Curso 25/26*
